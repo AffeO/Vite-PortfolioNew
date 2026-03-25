@@ -7,14 +7,16 @@ const projects = [
         description: "En teamplanerings web app byggt i React och C# .NET",
         image: "/Projects/image.png",
         tags: ["React", "C# .NET"],
+        githubUrl: "https://github.com/alfrokot100/Plan-IT"
     },
     
     {
         id: 2,
         title: "BankApplikation",
-        description: "En simpel men fungerande bankapplikation byggt i C# .NET",
+        description: "En bankapplikation med konto- och transaktionshantering, byggd i C# .NET",
         image: "/Projects/bank.png",
         tags: ["C# .NET"],
+        githubUrl: "https://google.com"
     },
 ];
 
@@ -53,7 +55,15 @@ export const ProjectSection = () =>{
                         <p className="text-muted-foreground text-sm mb-4">{projects.description}</p>
 
                             <div className="flex justify-between items-center">
-                                
+                                <a
+                                    href={projects.githubUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+                                >
+                                    <Github size={16} />
+                                    <span>Visa kod</span>
+                                </a>
                             </div>
                         </div>
                     </div>

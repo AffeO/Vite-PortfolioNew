@@ -58,9 +58,10 @@ export const AboutSection = () =>{
                             <div className="text-left">
                                 <h4 className="font-text-semibold text-lg">Samarbete & Kommunikation</h4>
                                 <p className="text-muted-foreground">
-                                    Jag trivs i team och är van vid att arbeta agilt med verktyg som Git, GitHub och Trello. 
-                                    Jag värdesätter tydlig kommunikation och tycker om att diskutera lösningar
-                                    tillsammans för att uppnå bästa möjliga resultat.
+                                    Jag trivs i team och är van vid att arbeta strukturerat mot gemensamma mål. 
+                                    Jag värdesätter tydlig kommunikation och tycker om att diskutera lösningar 
+                                    tillsammans — oavsett om det handlar om kodgranskning, planering eller 
+                                    problemlösning under press.
 
                                 </p>
                             </div>
@@ -74,9 +75,10 @@ export const AboutSection = () =>{
                             <div className="text-left">
                                 <h4 className="font-text-semibold text-lg">Praktisk Erfarenhet</h4>
                                 <p className="text-muted-foreground">
-                                    Jag har arbetat med flera fullstack-projekt, bland annat ett bokningssystem och en bloggplattform. 
-                                    Jag har god vana av att arbeta med databaser som SQL Server och att utveckla API:er med ASP.NET Core,
-                                    med fokus på struktur, prestanda och säkerhet.
+                                    Under min praktik hos Swedavias utvecklingsteam fick jag erfarenhet av att 
+                                    arbeta agilt i en professionell miljö med Azure DevOps och Git. Jag värdesätter 
+                                    tydlig kommunikation och har sett på nära håll hur strukturerade arbetsflöden 
+                                    och ett välfungerande team gör skillnad i större projekt.
                                 </p>
                             </div>
                         </div>
