@@ -5,18 +5,18 @@ const projects = [
         id: 1,
         title: "Buildboard WebApp",
         description: "En teamplanerings web app byggt i React och C# .NET",
-        image: "/Projects/image.png",
+        image: "/Projects/teamapp.png",
         tags: ["React", "C# .NET"],
-        githubUrl: "https://github.com/alfrokot100/Plan-IT"
+        githubUrl: "https://github.com/AffeO/Plan-IT"
     },
     
     {
         id: 2,
-        title: "BankApplikation",
-        description: "En bankapplikation med konto- och transaktionshantering, byggd i C# .NET",
-        image: "/Projects/bank.png",
-        tags: ["C# .NET"],
-        githubUrl: "https://google.com"
+        title: "Akutvänt",
+        description: "En applikation för att visa realtidsinformation om väntetider på akutmottagningar i Stockholm.",
+        image: "/Projects/akutvant.png",
+        tags: ["React", "C# .NET"],
+        githubUrl: "https://github.com/AffeO/AkutvantFullstack"
     },
 ];
 
@@ -73,7 +73,7 @@ export const ProjectSection = () =>{
             <div className="text-center mt-12">
                 <a className="cosmic-button w-fit flex items-center mx-auto gap-2"
                     target="_blank" 
-                    href="https://github.com/alfrokot100"
+                    href="https://github.com/AffeO"
                     >
                     Kolla gärna in mitt Github konto! <ArrowRight size={16} />
                 </a>

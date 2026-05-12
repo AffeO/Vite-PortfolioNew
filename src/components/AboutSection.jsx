@@ -28,8 +28,6 @@ export const AboutSection = () =>{
                         <a href="#contact" className="cosmic-button">
                             Kontakt                           
                         </a>
-
-
                     </div>
                 </div>
 
