@@ -4,28 +4,28 @@ import { cn } from "../lib/utils";
 
 const skills = [
     //Frontend
-    {name: "HTML/CSS", level: "Stark", category: "frontend"},
+    {name: "HTML5/CSS", level: "Stark", category: "frontend"},
     {name: "Javascript", level: "Stark", category: "frontend"},
     {name: "React", level: "Stark", category: "frontend"},
-    {name: "Tailwind CSS", level: "Bekant", category: "frontend"},
-    {name: "Next.js", level: "Bekant", category: "frontend"},
+    {name: "Tailwind CSS", level: "Van", category: "frontend"},
+    {name: "Typescript", level: "Stark", category: "frontend"},
 
     //Backend
     {name: "Node.js", level: "Van", category: "backend"},
     {name: "C# .NET", level: "Stark", category: "backend"},
-    {name: "REST APIs", level: "Van", category: "backend"},
+    {name: "REST APIs", level: "Stark", category: "backend"},
     {name: "SQL", level: "Stark", category: "backend"},
-    {name: "MySQL", level: "Van", category: "backend"},
     {name: "Entity Framework Core", level: "Stark", category: "backend"},
     {name: "ASP.NET Core", level: "Van", category: "backend"},
 
     //Tools
     {name: "Git/Github", level: "Stark", category: "tools"},
-    {name: "Figma", level: "Van", category: "tools"},
-    {name: "Unified Modeling Language (UML)", level: "Bekant", category: "tools"},
-    {name: "Software Testing", level: "Bekant", category: "tools"},
-    {name: "VS Code", level: "Stark", category: "tools"},
+    {name: "Figma", level: "Bekant", category: "tools"},
+    {name: "Azure DevOps", level: "Stark", category: "tools"},
+    {name: "Azure Functions", level: "Van", category: "tools"},
     {name: "Visual Studio", level: "Stark", category: "tools"},
+    {name: "NUnit/Moq", level: "Van", category: "tools"},
+
 
 ];
 
