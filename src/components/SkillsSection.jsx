@@ -4,7 +4,7 @@ import { cn } from "../lib/utils";
 
 const skills = [
     //Frontend
-    {name: "HTML5/CSS", level: "Stark", category: "frontend"},
+    {name: "HTML5/CSS3", level: "Stark", category: "frontend"},
     {name: "Javascript", level: "Stark", category: "frontend"},
     {name: "React", level: "Stark", category: "frontend"},
     {name: "Tailwind CSS", level: "Van", category: "frontend"},
@@ -16,7 +16,9 @@ const skills = [
     {name: "REST APIs", level: "Stark", category: "backend"},
     {name: "SQL", level: "Stark", category: "backend"},
     {name: "Entity Framework Core", level: "Stark", category: "backend"},
-    {name: "ASP.NET Core", level: "Van", category: "backend"},
+    {name: "ASP.NET Core", level: "Stark", category: "backend"},
+    {name: "Java", level: "Van", category: "backend"},
+
 
     //Tools
     {name: "Git/Github", level: "Stark", category: "tools"},
@@ -25,7 +27,6 @@ const skills = [
     {name: "Azure Functions", level: "Van", category: "tools"},
     {name: "Visual Studio", level: "Stark", category: "tools"},
     {name: "NUnit/Moq", level: "Van", category: "tools"},
-
 
 ];
 
